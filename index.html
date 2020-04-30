@@ -1,9 +1,211 @@
 <!DOCTYPE html>
-<html>
+<html lang='en'>
+
     <head>
         <title>Profile-Chiang, Pei-Fang</title>
+        <link rel="stylesheet" href="style.css">
+
+        <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata:wght@600&family=Quicksand:wght@700&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+        body {
+          margin: 0;
+          font-family: 'Literata', 'Crimson Pro', serif;
+        }
+
+        .topnav {
+          position: fixed;
+          overflow: auto;
+          background-color: white;
+          top: 0;
+          width: 100%;
+        }
+
+        .topnav a {
+          display: block;
+          color: #BC8F8F;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+
+        .topnav a:hover {
+          color: black;
+        }
+
+        .topnav a.active {
+          background-color: gray;
+          color: gray;
+        }
+
+        .topnav-centered a {
+          float: center;
+          position: absolute;
+          font-size: 25px;
+          color: #778899;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+
+        .topnav-left  a {
+          position: relative;
+          float: left ;
+          width: 90px;
+        }
+
+
+        </style>
+
+
     </head>
+
+
     <body>
-        <h1>江佩芳 Chiang, Pei-Fang</h1>
+
+      <header class='header'>
+
+            <!-- Top navigation -->
+          <div class="topnav">
+
+            <!-- Centered link -->
+            <div class="topnav-centered">
+              <a href="#home">Home</a>
+            </div>
+            
+            <!-- Left-aligned links (default) --> 
+            <div class="topnav-left">  
+              <a href="#about">About</a>
+              <a href="#project">Project</a>
+              <a href="#skill">Skill</a>
+              <a href="#certificate">Certificate</a>
+
+
+            </div>
+
+          </div>
+      
+      </header>
+
+
+      <div class="main-content">
+
+
+    <!-- Home -->
+        <div ><a name="home"></a></div>        
+            <div>
+                <h1 style="font-family: 'Literata', serif; font-size: 50px; position: absolute; top: 200px; right: 680px">I'm Chiang, Pei-Fang</h1>
+                <h2 style="font-family: 'Crimson Pro', serif; font-size: 28px; position: absolute; top: 310px; right: 810px; font-weight: lighter">Currently Based in Taipei, Taiwan</h2>
+
+            </div>
+        
+
+
+
+    <!-- About Me -->
+        <div id="about" style="position: absolute; top:600px;"><a name="about"></a></div>
+            <div>
+                <div>
+                  <h1 style="font-family: 'Literata', serif; font-size: 32px; position: absolute; top:650px; right: 1000px">About Me</h1>
+                  <p style="font-family: 'Crimson Pro', serif; font-size: 22px; color: #AAAAAA; position: absolute; top: 780px; right: 920px">Write a Paragraph</p>
+                  <p style="font-family: 'Crimson Pro', serif; font-size: 22px; color: #AAAAAA; position: absolute; top: 810px; right: 920px">Write a Paragraph</p>
+                  <p style="font-family: 'Crimson Pro', serif; font-size: 22px; color: #AAAAAA; position: absolute; top: 840px; right: 920px">Write a Paragraph</p>
+                </div>
+
+              <div>
+                <h2 style="font-family: 'Literata', serif; font-size: 24px; position: absolute; top: 770px; right: 520px">Education</h2>
+                <p style="font-family: 'Crimson Pro', serif; font-size: 22px; color: #AAAAAA; position: absolute; top: 810px; right: 398px">National Taiwan University</p>
+                <ul style="font-family: 'Crimson Pro', serif; font-size: 22px; color: #AAAAAA; position: absolute; top: 845px; right: 340px">
+                  <li>Major : Economics</li>
+                  <li>Program : Quantitative Finance</li>
+                </ul>
+              </div>
+              <div>
+                <h2 style="font-family: 'Literata', serif; font-size: 24px; position: absolute; top: 950px; right: 505px">Experience</h2>
+                <ul style="font-family: 'Crimson Pro', serif; font-size: 22px; color: #AAAAAA; position: absolute; top: 1000px; right: 100px">
+                  <li>System Analyst, IBM</li>
+                  <li>Industry Analyst Intern, Institute for Information Industry</li>
+                  <li>Marketing Data Analyst Intern, iBeenGo</li>
+                </ul>
+              </div>
+
+            </div>
+
+       
+
+
+    <!--Project -->
+        <div id="project" style="position: absolute; top:1230px;"><a name="project"></a></div>
+            <div>
+
+                <h1 style="font-family: 'Literata', serif; font-size: 32px; position:relative; text-align: center; top:1300px;">Project</h1>
+            </div>
+
+    <!--Skill -->
+        <div id="skill" style="position: absolute; top:2000px;"><a name="skill"></a></div>
+            <div>
+
+                <h1 style="font-family: 'Literata', serif; font-size: 32px; position:relative; text-align: center; top:2000px;">Skill</h1>
+                  <figure>
+                    <img src="skill-python.png" style="position: absolute; top:2300px; right:700px; width:150px; ">
+                    <figcaption style="position: absolute; top:2500px; right:725px; font-size:26px; ">Python</figcaption>
+                  </figure>
+                  
+                  <figure>
+                    <img src="skill-r.png" style="position: absolute; top:2310px; right:425px; width:125px; ">
+                    <figcaption style="position: absolute; top:2500px; right:470px; font-size:26px; ">R</figcaption>
+                  </figure>
+
+                  <figure>
+                    <img src="skill-mysql.png" style="position: absolute; top:2320px; right:1000px; width:180px; ">
+                    <figcaption style="position: absolute; top:2500px; right:1050px; font-size:26px; ">SQL</figcaption>
+                  </figure>
+
+                  <figure>
+                    <img src="skill-stata.png" style="position: absolute; top:2310px; right:160px; width:125px; ">
+                    <figcaption style="position: absolute; top:2500px; right:195px; font-size:26px; ">Stata</figcaption>
+                  </figure>
+
+
+            </div>
+
+
+    <!--Certificate -->
+        <div id="certificate" style="position: absolute; top:2720px;"><a name="certificate"></a></div>
+            <div>
+
+                <h1 style="font-family: 'Literata', serif; font-size: 32px; position:relative; text-align: center; top:2650px;">Certificate</h1>
+
+            </div>
+
+
+      </div>
+
+
+      <footer class="footer"></footer>
+          <h1 style="font-size: 18px; position: absolute; top:3850px; right: 1000px; ">Contact Me</h1>
+              <h2 style="font-size: 16px; color: #778899; position: absolute; top:3890px; right: 855px; ">E-mail : peifang003@gmail.com</h2>
+
+          <h1 style="font-size: 18px; position: absolute; top:3850px; right: 430px; ">Follow Me</h1>
+              <figure>
+                  <img src="footer-youtube.png" style="position: absolute; top:3910px; right:485px; width:35px; ">
+              </figure>
+
+              <a href="https://www.facebook.com/peifang003" target="_blank">
+                <figure><img src="footer-facebook.png" style="position: absolute; top:3910px; right:435px; width:35px; "></figure>
+              </a>
+
+              <a href="https://www.linkedin.com/in/pei-fang-chiang-532490170/" target="_blank">
+                <figure><img src="footer-linkedin.png" style="position: absolute; top:3910px; right:390px; width:35px; "></figure>
+              </a>
+
+
+              <figure>
+                  <img src="footer-instagram.png" style="position: absolute; top:3910px; right:345px; width:37px; ">
+              </figure>
+
+
+
     </body>
 </html>
